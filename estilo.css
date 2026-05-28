@@ -10,5 +10,6 @@ body {
     background-color: #FF4081;
     display: flex;
     justify-content:space-between;
-
+    padding: 15px 25px;
+    align-items: center;
 }
