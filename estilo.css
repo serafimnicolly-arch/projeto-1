@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 *{
    margin: 0;
    padding: 0;
@@ -5,8 +6,10 @@
 
 body {
     background-color:#FA6781;
+    color: #FFF5F8;
+    font-family: "Playfair Display", serif;
 }
-.cabecalho{
+.cabecalho{ 
     background-color: #FF4081;
     display: flex;
     justify-content:space-between;
