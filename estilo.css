@@ -16,3 +16,25 @@ body {
     padding: 15px 25px;
     align-items: center;
 }
+.cartao{
+    width: 260px;
+    height: 200px;
+    font-size: 50px;
+}
+.cartao img{
+    width: 200px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+.cartao-interno{
+    position: relative;
+    transition: trnsform 0.8s;
+    transform-style: preserve-3d;
+}
+.cartao:hover .cartao-interno{
+    transform: rotateY(180deg);
+}
