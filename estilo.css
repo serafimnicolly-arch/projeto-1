@@ -19,7 +19,7 @@ body {
 .cartao{
     width: 260px;
     height: 200px;
-    font-size: 50px;
+    font-size: 20px;
 }
 .cartao img{
     width: 200px;
@@ -32,7 +32,7 @@ main{
 }
 .cartao-interno{
     position: relative;
-    transition: trnsform 0.8s;
+    transition: transform 0.8s;
     transform-style: preserve-3d;
 }
 .cartao:hover .cartao-interno{
