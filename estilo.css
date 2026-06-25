@@ -46,4 +46,10 @@ main{
     border-radius: 12px;
     box-shadow: o 6px 12px rgba(0, 0, 0, 0, 15);
     backface-visibility: hidden;
+
+}
+section{
+    display: flex; 
+    gap: 16px;
+
 }
